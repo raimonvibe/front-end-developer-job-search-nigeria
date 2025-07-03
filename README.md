@@ -1,5 +1,7 @@
 # 🚀 Frontend Internship Guide Nigeria
 
+[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Visit_App-blue?style=for-the-badge)](https://front-end-developer-job-search-nige.vercel.app/)
+
 ![Frontend Internship Guide Nigeria](./screenshots/app-preview.png)
 
 > 🎯 **Your comprehensive guide to landing paid frontend development internships in Nigeria**
