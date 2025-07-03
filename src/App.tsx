@@ -19,7 +19,7 @@ function App() {
   const jobPlatforms = [
     {
       name: "LinkedIn Nigeria",
-      url: "https://ng.linkedin.com",
+      url: "https://www.linkedin.com/jobs/search/?keywords=frontend%20developer&location=Nigeria",
       description: "Professional networking platform with extensive internship listings",
       type: "Professional Network",
       icon: <Users className="w-6 h-6" />,
@@ -27,7 +27,7 @@ function App() {
     },
     {
       name: "Indeed Nigeria",
-      url: "https://ng.indeed.com",
+      url: "https://ng.indeed.com/jobs?q=frontend+developer&l=Nigeria",
       description: "Leading job search engine with local and remote opportunities",
       type: "Job Board",
       icon: <Search className="w-6 h-6" />,
@@ -35,7 +35,7 @@ function App() {
     },
     {
       name: "Jobberman",
-      url: "https://www.jobberman.com",
+      url: "https://www.jobberman.com/jobs?q=frontend+developer&location=nigeria",
       description: "Nigeria's largest job portal with tech-focused listings",
       type: "Job Board",
       icon: <Building className="w-6 h-6" />,
@@ -43,7 +43,7 @@ function App() {
     },
     {
       name: "NgCareers",
-      url: "https://www.ngcareers.com",
+      url: "https://www.jobberman.com/jobs?q=software+developer&location=nigeria",
       description: "Nigerian career platform with graduate programs",
       type: "Career Platform",
       icon: <Target className="w-6 h-6" />,
@@ -51,7 +51,7 @@ function App() {
     },
     {
       name: "Glassdoor Nigeria",
-      url: "https://www.glassdoor.com/Job/nigeria-jobs-SRCH_IL.0,7_IN177.htm",
+      url: "https://www.glassdoor.com/Job/nigeria-frontend-developer-jobs-SRCH_IL.0,7_IN177_KO8,26.htm",
       description: "Salary insights and company reviews for informed decisions",
       type: "Career Intelligence",
       icon: <TrendingUp className="w-6 h-6" />,
@@ -59,7 +59,7 @@ function App() {
     },
     {
       name: "Wellfound (AngelList)",
-      url: "https://wellfound.com",
+      url: "https://wellfound.com/role/r/frontend-engineer",
       description: "Startup-focused platform with remote opportunities",
       type: "Startup Jobs",
       icon: <Globe className="w-6 h-6" />,
