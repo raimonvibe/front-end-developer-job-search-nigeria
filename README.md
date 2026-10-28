@@ -89,20 +89,25 @@ frontend-internship-guide-nigeria/
 ## 🎯 Key Sections
 
 ### 🏢 Top Job Platforms
-- **LinkedIn Nigeria** - Professional networking with 39+ frontend developer jobs
-- **Indeed Nigeria** - 75+ frontend developer opportunities
-- **Jobberman** - Nigeria's largest job portal with 23+ frontend roles
-- **NgCareers** - Nigerian career platform with graduate programs
-- **Glassdoor Nigeria** - 85+ frontend developer jobs with salary insights
+- **LinkedIn Nigeria** - Professional networking and job listings
+- **Indeed Nigeria** - Local and remote frontend opportunities
+- **Jobberman** - Nigeria's largest job portal (NgCareers now redirects here)
+- **Jobberman Software & Data** - All software and data roles in one category
+- **Glassdoor Nigeria** - Jobs with salary insights and company reviews
 - **Wellfound** - Startup-focused platform with remote opportunities
 
 ### 🏆 Top Companies Hiring
-- **Flutterwave** - Leading fintech (₦150K-₦300K)
-- **Andela** - Global tech accelerator ($1K-$3K)
-- **Google STEP** - Student Training in Engineering Program
-- **MTN Nigeria** - Telecommunications leader (₦100K-₦250K)
-- **Shell Nigeria** - Energy sector opportunities
-- **Bincom ICT** - Local tech solutions provider
+Each links to its official careers page (checked October 2026):
+- **Flutterwave** - Leading Nigerian fintech
+- **Google STEP** - 12-week paid summer internship for 1st and 2nd-year undergraduates
+- **MTN Nigeria** - Telecommunications leader with graduate programmes
+- **Shell Nigeria** - Deepwater and gas (the onshore SPDC unit was sold to Renaissance in 2025)
+- **Bincom Dev Center** - Software company with the Bincom Academy
+
+### 💰 Salary Expectations (Nigerian listings, October 2026)
+- Internships / trainee roles in Lagos/Abuja: **₦150K - ₦350K** per month
+- Full-time junior frontend roles: **₦250K - ₦500K** per month
+- International remote junior roles: **$1K - $3K** per month (varies widely)
 
 ### 💡 Essential Skills
 - HTML5/CSS3, JavaScript (ES6+)

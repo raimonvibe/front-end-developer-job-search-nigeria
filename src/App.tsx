@@ -42,9 +42,9 @@ function App() {
       color: "bg-orange-500"
     },
     {
-      name: "NgCareers",
-      url: "https://www.jobberman.com/jobs?q=software+developer&location=nigeria",
-      description: "Nigerian career platform with graduate programs",
+      name: "Jobberman Software & Data",
+      url: "https://www.jobberman.com/jobs/software-data?location=nigeria",
+      description: "All software and data roles in Nigeria in one category (NgCareers now redirects here)",
       type: "Career Platform",
       icon: <Target className="w-6 h-6" />,
       color: "bg-purple-500"
@@ -67,46 +67,46 @@ function App() {
     }
   ]
 
+  // Checked October 2026. Pay is left to each listing: companies rarely publish
+  // intern pay, and naira figures go stale fast. See the Salary section for ranges.
   const topCompanies = [
     {
       name: "Flutterwave",
-      description: "Leading fintech company offering paid internships",
-      salary: "₦150,000 - ₦300,000",
+      description: "Leading Nigerian fintech; internships and graduate roles are posted on its careers page",
+      salary: "See listing",
+      url: "https://flutterwave.com/ng/careers",
       type: "Fintech",
       remote: true
     },
     {
-      name: "Andela",
-      description: "Global technology talent accelerator",
-      salary: "$1,000 - $3,000",
-      type: "Tech Training",
-      remote: true
-    },
-    {
       name: "Google STEP",
-      description: "Student Training in Engineering Program",
-      salary: "Competitive + Benefits",
+      description: "12-week summer internship for 1st and 2nd-year undergraduates; applications usually open August to December",
+      salary: "Paid internship",
+      url: "https://buildyourfuture.withgoogle.com/programs/step",
       type: "Tech Giant",
       remote: false
     },
     {
       name: "MTN Nigeria",
-      description: "Telecommunications leader with tech internships",
-      salary: "₦100,000 - ₦250,000",
+      description: "Telecommunications leader with graduate and tech programmes",
+      salary: "See listing",
+      url: "https://www.mtn.ng/career/",
       type: "Telecommunications",
       remote: false
     },
     {
       name: "Shell Nigeria",
-      description: "Energy company with digital transformation roles",
-      salary: "₦200,000 - ₦400,000",
+      description: "Deepwater and gas business (Shell sold its onshore SPDC unit to Renaissance in March 2025)",
+      salary: "See listing",
+      url: "https://www.shell.com.ng/careers.html",
       type: "Energy/Tech",
       remote: false
     },
     {
-      name: "Bincom ICT Solutions",
-      description: "Software development company with mentorship programs",
-      salary: "₦80,000 - ₦150,000",
+      name: "Bincom Dev Center",
+      description: "Software company with the Bincom Academy training and mentorship programme",
+      salary: "See listing",
+      url: "https://bincom.net/academy/",
       type: "Software Development",
       remote: true
     }
@@ -272,7 +272,7 @@ function App() {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold mb-4">Top Companies Hiring Interns</h2>
             <p className="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-              These companies regularly offer paid frontend development internships to Nigerian students and graduates.
+              These companies run internships, graduate programmes or training for Nigerian students and graduates. Openings change, so check each careers page.
             </p>
           </div>
 
@@ -299,6 +299,14 @@ function App() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-600 dark:text-gray-300">{company.description}</p>
+                  <a
+                    href={company.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-3 inline-block font-medium text-blue-600 hover:underline dark:text-blue-400"
+                  >
+                    View careers page →
+                  </a>
                 </CardContent>
               </Card>
             ))}
@@ -363,6 +371,7 @@ function App() {
             <h2 className="text-3xl font-bold mb-4">Salary Expectations</h2>
             <p className="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
               Understanding salary ranges helps you negotiate better and set realistic expectations.
+              Local ranges are based on Nigerian job listings checked in October 2026.
             </p>
           </div>
 
@@ -373,21 +382,21 @@ function App() {
               </CardHeader>
               <CardContent>
                 <div className="text-3xl font-bold text-green-600 dark:text-green-400 mb-2">
-                  ₦80K - ₦150K
+                  ₦150K - ₦350K
                 </div>
-                <p className="text-gray-600 dark:text-gray-300">Per month for local internships in Lagos/Abuja</p>
+                <p className="text-gray-600 dark:text-gray-300">Per month for frontend internships and trainee roles in Lagos/Abuja</p>
               </CardContent>
             </Card>
 
             <Card className={`${darkMode ? 'bg-gray-800 border-gray-700' : 'bg-white'} text-center`}>
               <CardHeader>
-                <CardTitle className="text-lg">Mid-Level (Local)</CardTitle>
+                <CardTitle className="text-lg">Junior (Local)</CardTitle>
               </CardHeader>
               <CardContent>
                 <div className="text-3xl font-bold text-blue-600 dark:text-blue-400 mb-2">
-                  ₦150K - ₦300K
+                  ₦250K - ₦500K
                 </div>
-                <p className="text-gray-600 dark:text-gray-300">Per month for established companies</p>
+                <p className="text-gray-600 dark:text-gray-300">Per month for full-time junior frontend roles</p>
               </CardContent>
             </Card>
 
@@ -399,7 +408,7 @@ function App() {
                 <div className="text-3xl font-bold text-purple-600 dark:text-purple-400 mb-2">
                   $1K - $3K
                 </div>
-                <p className="text-gray-600 dark:text-gray-300">Per month for international remote positions</p>
+                <p className="text-gray-600 dark:text-gray-300">Per month for international remote junior roles (varies widely)</p>
               </CardContent>
             </Card>
           </div>
